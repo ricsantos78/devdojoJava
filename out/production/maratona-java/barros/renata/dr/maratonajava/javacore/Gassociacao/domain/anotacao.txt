@@ -1,0 +1,5 @@
+0 - Bloco de inicializaçao é executado quando a JVM carrega classe
+1 - Alocado espaço em memoria pro objeto
+2 - Cada atributo de classse é criada e inicializada com valores default ou o quer for passasdo
+3 - Bloco de inicializacao é executado.
+4 -  Construtor é executado.
