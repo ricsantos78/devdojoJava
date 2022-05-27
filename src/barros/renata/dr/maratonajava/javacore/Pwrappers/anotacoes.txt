@@ -1,0 +1,8 @@
+Wrappers : objetos que vao encapsular tipos primitivos.
+
+AutoBox : quando voce tem um tipo primitivo e voce faz o java transformar o tipo primitivo em uma
+classe Wrapper
+
+Unboxing : o inverso do AutoBox.
+
+Character : é o unico que não aceita um parse de uma String

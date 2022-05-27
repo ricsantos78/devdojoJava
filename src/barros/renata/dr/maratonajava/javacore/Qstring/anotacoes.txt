@@ -1,0 +1,5 @@
+String no java são imutavéis.
+String não pode ser trocado o valor de referencia.
+
+
+
