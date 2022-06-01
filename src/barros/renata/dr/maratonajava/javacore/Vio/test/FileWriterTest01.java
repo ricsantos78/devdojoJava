@@ -9,7 +9,7 @@ import java.io.IOException;
 //fileReader
 //bufferedWriter
 //bufferedReader
-public class FileWriter01 {
+public class FileWriterTest01 {
 
 
     public static void main(String[] args) {
