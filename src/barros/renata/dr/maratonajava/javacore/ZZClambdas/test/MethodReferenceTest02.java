@@ -6,15 +6,14 @@ import barros.renata.dr.maratonajava.javacore.ZZClambdas.service.AnimeComparator
 import java.util.ArrayList;
 import java.util.List;
 
-// Reference to a static method
-public class MethodReferenceTest01 {
+//Reference to an instance method of a particular object
+public class MethodReferenceTest02 {
     public static void main(String[] args) {
+        AnimeComparators animeComparators = new AnimeComparators();
         List<Anime> animeList = new ArrayList<>(List.of(new Anime("Berserk", 43),
                 new Anime("One Piece", 100),
                 new Anime("Naruto", 500)));
-        // animeList.sort((a1, a2) -> a1.getTitle().compareTo(a2.getTitle()));
-        // animeList.sort(AnimeComparators::compareByTitle);
-        animeList.sort(AnimeComparators::compareByEpisdes);
+        animeList.sort(animeComparators::compareByEpisdesNonStatic);
         System.out.println(animeList);
     }
 }
