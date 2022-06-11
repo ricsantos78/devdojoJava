@@ -1,0 +1,11 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±÷•Ñúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(¡‘ğà
+S	java:S106"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(­¶°éÿÿÿÿÿ8ß¶Áò“0
+x
+java:S1128"[Remove this unused import 'barros.renata.dr.maratonajava.javacore.ZZClambdas.domain.Anime'.(¢­Œ8»Âò“0
+„
+java:S1128"gRemove this unused import 'barros.renata.dr.maratonajava.javacore.ZZClambdas.service.AnimeComparators'.(ˆµ„Ò8ÅÂò“0

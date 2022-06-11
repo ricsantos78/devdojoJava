@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•üÚøÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÖşøÿÿÿÿ8«¡«‘0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(–ºè¾ûÿÿÿÿ8Ô·¢«‘0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(é‹Ó¡ıÿÿÿÿ8ê®¯«‘0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ç¢8ê®¯«‘0
+M
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü8¹½¤«‘0

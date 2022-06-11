@@ -1,0 +1,14 @@
+
+`	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+X
+java:S11632"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ
+O
+java:S11432"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²þ©b
+>	java:S108")Either remove or fill this block of code.(±¶¥Š
+>	java:S108")Either remove or fill this block of code.(ï­£Ä
+C	java:S108")Either remove or fill this block of code.(Ì²Ä´úÿÿÿÿ
+>	java:S108!")Either remove or fill this block of code.(ï­£Ä
+E
+java:S2093("*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

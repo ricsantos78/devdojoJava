@@ -1,0 +1,16 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•üÚøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÏÙ£“
+S	java:S106"9Replace this use of System.out or System.err by a logger.(–ñ„Ãıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¦ ÃÇùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(òÔÇÍ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ÏÙ£“
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(–ñ„Ãıÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(¦ ÃÇùÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(òÔÇÍ
+?
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
+O
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ
+G
+java:S1128"1Remove this unused import 'java.time.ZoneOffset'.(ìÍÄË

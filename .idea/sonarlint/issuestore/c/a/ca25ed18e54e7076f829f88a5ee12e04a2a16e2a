@@ -1,0 +1,17 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(şæÒ˜
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ôƒó
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‘¶¡úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.( Åª§ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëû½å
+M	java:S106"9Replace this use of System.out or System.err by a logger.(•ı¶x
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÈÇÑşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(…š“øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾¸íÁøÿÿÿÿ
+i
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(¾¸íÁøÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
