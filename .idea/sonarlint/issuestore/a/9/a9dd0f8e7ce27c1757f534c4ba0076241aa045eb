@@ -1,0 +1,14 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(—”£üÿÿÿÿÿ
+T
+java:S1854">Remove this useless assignment to local variable "isModified".(È¢Û
+X
+java:S1854"=Remove this useless assignment to local variable "isCreated".(º“¾èüÿÿÿÿ
+\	java:S899"BDo something with the "boolean" value returned by "createNewFile".(º“¾èüÿÿÿÿ
+I
+java:S1481".Remove this unused "isCreated" local variable.(º“¾èüÿÿÿÿ
+Y	java:S899"DDo something with the "boolean" value returned by "setLastModified".(È¢Û
+E
+java:S1481"/Remove this unused "isModified" local variable.(È¢Û
+c
+java:S1128"HRemove this unused import 'java.nio.file.attribute.BasicFileAttributes'.(“ããÿÿÿÿÿ

@@ -1,0 +1,16 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(É°ƒäþÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(‰¨Ü¶
+V
+java:S1854	";Remove this useless assignment to local variable "imposto".(Õ³è±ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(õŸµŽ
+G
+java:S1481	",Remove this unused "imposto" local variable.(Õ³è±ùÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(˜§ïû
+N	java:S106"9Replace this use of System.out or System.err by a logger.(íúÿÀ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÿø™™øÿÿÿÿ
+[
+java:S6201"FReplace this instanceof check and cast with 'instanceof Tomate tomate'(äŽ±*
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Çé ·øÿÿÿÿ

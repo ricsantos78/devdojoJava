@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(šóÊûÿÿÿÿ
+?
+java:S2201"*The return value of "concat" must be used.(µ‰6
+C
+java:S2201"-The return value of "substring" must be used.(®£ôì
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¹ß€ïúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿ

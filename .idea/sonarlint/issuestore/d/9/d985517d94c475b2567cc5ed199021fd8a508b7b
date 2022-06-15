@@ -1,0 +1,70 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ï¸ÊÍüÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "aTrue".(‘˜Éû
+T
+java:S1854"9Remove this useless assignment to local variable "intW2".(±³¬‘ûÿÿÿÿ
+P
+java:S1854"5Remove this useless assignment to local variable "i".(¹œ¹üÿÿÿÿ
+O
+java:S1854"9Remove this useless assignment to local variable "charW".(¡‡éƒ
+V
+java:S1854";Remove this useless assignment to local variable "doubleW".(÷Çïôùÿÿÿÿ
+U
+java:S1854":Remove this useless assignment to local variable "floatW".(·Ê±ôıÿÿÿÿ
+T
+java:S1854"9Remove this useless assignment to local variable "longW".(òÕşÂùÿÿÿÿ
+T
+java:S1854"9Remove this useless assignment to local variable "charP".(È÷½ıÿÿÿÿ
+Q
+java:S1854";Remove this useless assignment to local variable "doubleP".(õÜù³
+U
+java:S1854
+":Remove this useless assignment to local variable "floatP".(îÚÌûÿÿÿÿ
+O
+java:S1854	"9Remove this useless assignment to local variable "longP".(ÙÄ÷
+E
+java:S1481"*Remove this unused "byteP" local variable.(âïå­ÿÿÿÿÿ
+F
+java:S1481"+Remove this unused "shortP" local variable.(Ë„ûÌıÿÿÿÿ
+?
+java:S1481")Remove this unused "intP" local variable.(×ÑÙ©
+@
+java:S1481	"*Remove this unused "longP" local variable.(ÙÄ÷
+F
+java:S1481
+"+Remove this unused "floatP" local variable.(îÚÌûÿÿÿÿ
+B
+java:S1481",Remove this unused "doubleP" local variable.(õÜù³
+E
+java:S1481"*Remove this unused "charP" local variable.(È÷½ıÿÿÿÿ
+B
+java:S1481"-Remove this unused "booleanP" local variable.(ú˜œ
+@
+java:S1481"*Remove this unused "byteW" local variable.(³«Äì
+A
+java:S1481"+Remove this unused "shortW" local variable.(ôèè
+E
+java:S1481"*Remove this unused "longW" local variable.(òÕşÂùÿÿÿÿ
+F
+java:S1481"+Remove this unused "floatW" local variable.(·Ê±ôıÿÿÿÿ
+G
+java:S1481",Remove this unused "doubleW" local variable.(÷Çïôùÿÿÿÿ
+@
+java:S1481"*Remove this unused "charW" local variable.(¡‡éƒ
+C
+java:S1481"-Remove this unused "booleanW" local variable.(ù‹ˆÚ
+A
+java:S1481"&Remove this unused "i" local variable.(¹œ¹üÿÿÿÿ
+E
+java:S1481"*Remove this unused "intW2" local variable.(±³¬‘ûÿÿÿÿ
+@
+java:S1481"*Remove this unused "aTrue" local variable.(‘˜Éû
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÂĞœÊşÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ã×Ëşÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ö™ƒúÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ûÒ¼øÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(—İ´ûÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(›Â»Æûÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Î‰¢‡ÿÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(”—Â‹ùÿÿÿÿ

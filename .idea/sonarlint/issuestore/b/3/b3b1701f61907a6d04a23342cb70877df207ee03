@@ -1,6 +1,0 @@
-
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ãàñ•
-N	java:S106"9Replace this use of System.out or System.err by a logger.(»¬ÁÝ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¤ê×¡
-‹
-java:S1128"uRemove this unused import 'barros.renata.dr.maratonajava.javacore.ZZHpadroesdeprojeto.domain.AircraftSingletonEager'.(Ò× Ä

@@ -1,0 +1,44 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û®¼
+R
+java:S1854"7Remove this useless assignment to local variable "p10".(ÓŞŒÃıÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "p9".(Âù×Ó
+Q
+java:S1854"6Remove this useless assignment to local variable "p8".(ó§ÖÒüÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "p7".(±¿´…
+Q
+java:S1854"6Remove this useless assignment to local variable "p6".(¶Å±şÿÿÿÿ
+Q
+java:S1854"6Remove this useless assignment to local variable "p5".(ò‘­üÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "p4".(Æ¶‰
+L
+java:S1854"6Remove this useless assignment to local variable "p3".(¼§ï
+L
+java:S1854
+"6Remove this useless assignment to local variable "p2".(À¥ğş
+L
+java:S1854	"6Remove this useless assignment to local variable "p1".(÷Ğø‘
+=
+java:S1481	"'Remove this unused "p1" local variable.(÷Ğø‘
+=
+java:S1481
+"'Remove this unused "p2" local variable.(À¥ğş
+=
+java:S1481"'Remove this unused "p3" local variable.(¼§ï
+=
+java:S1481"'Remove this unused "p4" local variable.(Æ¶‰
+B
+java:S1481"'Remove this unused "p5" local variable.(ò‘­üÿÿÿÿ
+B
+java:S1481"'Remove this unused "p6" local variable.(¶Å±şÿÿÿÿ
+=
+java:S1481"'Remove this unused "p7" local variable.(±¿´…
+B
+java:S1481"'Remove this unused "p8" local variable.(ó§ÖÒüÿÿÿÿ
+=
+java:S1481"'Remove this unused "p9" local variable.(Âù×Ó
+C
+java:S1481"(Remove this unused "p10" local variable.(ÓŞŒÃıÿÿÿÿ

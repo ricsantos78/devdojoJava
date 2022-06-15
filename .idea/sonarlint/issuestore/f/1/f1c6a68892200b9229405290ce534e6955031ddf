@@ -1,16 +1,0 @@
-
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±÷•Ñúÿÿÿÿ
-h
-java:S1854"KRemove this useless assignment to local variable "strings2MethodReference".(­÷Õ­8ˆ½øİ“0
-h
-java:S1854"KRemove this useless assignment to local variable "integersMethodReference".(¯‘ûã8ÖÌöİ“0
-Q
-java:S1612";Replace this lambda with method reference 'String::length'.(¢üÊ§
-Y
-java:S1481"<Remove this unused "integersMethodReference" local variable.(¯‘ûã8ßÚ÷İ“0
-b
-java:S1612"@Replace this lambda with method reference 'String::toUpperCase'.(É˜’µıÿÿÿÿ8ÜÌöİ“0
-Y
-java:S1481"<Remove this unused "strings2MethodReference" local variable.(­÷Õ­8‚óøİ“0
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ö–ËÖ
-U	java:S106"9Replace this use of System.out or System.err by a logger.(öıõÁ8Ú¼éİ“0
