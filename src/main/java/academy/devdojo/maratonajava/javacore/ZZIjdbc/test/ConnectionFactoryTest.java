@@ -13,7 +13,7 @@ public class ConnectionFactoryTest {
 //        Producer producer = Producer.builder().name("MadHouse").build();
 //        ProducerService.save(producer);
 //        ProducerService.delete(8);
- //       Producer producerToUpdate = Producer.builder().id(3).name("STUDIO DEEN").build();
+       Producer producerToUpdate = Producer.builder().id(3).name("studio deen").build();
 
 //        List<Producer> producers = ProducerService.findByName("Mad");
         //List<Producer> producers = ProducerService.findAll();
@@ -23,6 +23,8 @@ public class ConnectionFactoryTest {
 
 //        List<Producer> producers = ProducerService.findByNameAndInsertWhenNotFound("A-1 pictures");
 //        log.info("Producers found '{}' ",producers);
-        ProducerService.findByNameAndDelete("A-1 pictures");
+//        List<Producer> producers = ProducerService.findByNamePreparedStartment("Bo");
+//        log.info("Producers found '{}' ",producers);
+        ProducerService.updatePreparedStatement(producerToUpdate);
     }
 }

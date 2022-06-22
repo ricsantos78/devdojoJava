@@ -20,6 +20,10 @@ public class ProducerService {
         requireValidId(producer.getId());
         ProducerRepository.update(producer);
     }
+    public static void updatePreparedStatement(Producer producer) {
+        requireValidId(producer.getId());
+        ProducerRepository.updatePreparedStatement(producer);
+    }
 
     public static List<Producer> findAll() {
         return ProducerRepository.findAll();
@@ -27,6 +31,9 @@ public class ProducerService {
 
     public static List<Producer> findByName(String name) {
         return ProducerRepository.findByName(name);
+    }
+    public static List<Producer> findByNamePreparedStartment(String name) {
+        return ProducerRepository.findByNamePreparedStartment(name);
     }
 
     public static void showProducerMetadata() {

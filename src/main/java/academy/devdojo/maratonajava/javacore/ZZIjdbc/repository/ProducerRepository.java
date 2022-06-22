@@ -220,6 +220,53 @@ public class ProducerRepository {
         }
     }
 
+    public static List<Producer> findByNamePreparedStartment(String name) {
+        log.info("Finding producers by name");
+        List<Producer> producers = new ArrayList<>();
+        try (Connection conn = ConnectionFactory.getConnection();
+             PreparedStatement ps = preparedStatmentFindByName(conn,name);
+             ResultSet rs = ps.executeQuery()){
+            while (rs.next()) {
+                Producer producer = Producer
+                        .builder()
+                        .id(rs.getInt("id"))
+                        .name(rs.getString("name"))
+                        .build();
+                producers.add(producer);
+            }
+
+        } catch (SQLException e) {
+            log.error("Error while trying to find all producer ", e);
+        }
+        return producers;
+    }
+
+    private static PreparedStatement preparedStatmentFindByName(Connection connection, String name) throws SQLException {
+        String sql = "select * from producer where name like ?;";
+        PreparedStatement ps = connection.prepareStatement(sql);
+        ps.setString(1, String.format("%%%s%%", name));
+        return ps;
+    }
+
+    public static void updatePreparedStatement(Producer producer) {
+        try (Connection conn = ConnectionFactory.getConnection()) {
+            PreparedStatement ps = preparedStatmentUpdate(conn,producer);
+            int rowsAffcted = ps.executeUpdate();
+            log.info("Update producer '{}'  rows affected '{}'", producer.getId(), rowsAffcted);
+        } catch (SQLException e) {
+            log.error("Error while trying to update producer '{}'", producer.getId(), e);
+        }
+    }
+
+    private static PreparedStatement preparedStatmentUpdate(Connection connection, Producer producer) throws SQLException {
+        String sql = "update producer set name = ? where id = ?";
+        PreparedStatement ps = connection.prepareStatement(sql);
+        ps.setString(1, producer.getName());
+        ps.setInt(2, producer.getId());
+        return ps;
+    }
+
+
 
     private static void insertNewProducer(String name, ResultSet rs) throws SQLException {
         rs.moveToInsertRow();
